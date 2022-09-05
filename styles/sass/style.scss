@@ -142,7 +142,6 @@ main {
 	.section_head_texts {
 		display: flex;
 		flex-direction: column;
-		// gap: 1rem;
 
 		p {
 			@include fontStyle(2.1rem, 700, $primaryColor);
@@ -161,8 +160,6 @@ main {
 	}
 
 	.slider_item {
-		// min-width: 33rem; 
-		// max-width: 40rem;
 		display: flex;
 		flex-direction: column;
 		gap: 1.7rem;
@@ -523,7 +520,6 @@ main {
 
 		.trust_item {
 			display: flex;
-			// gap: .8rem;
 
 			svg {
 				width: 29rem;
@@ -1009,7 +1005,6 @@ main {
 
 			&:hover {
 				color: $primaryColor;
-				// right: 0;
 				padding-right: 1.5rem;
 
 				&::after {
@@ -1100,11 +1095,10 @@ main {
 	}
 }
 
-.swiper1Img,
-.swiper2Img {
-	.swiper-slide {
-		min-width: 38rem;
-	}
+.swiper1Img1,
+.swiper1Img2,
+.swiper1Img3,
+.swiper1Img4 {
 
 	&:hover {
 		.next_img,
@@ -1148,7 +1142,7 @@ main {
 	}
 
 	.footer {
-		.footer_links {
+		.footer_links { 
 			flex-wrap: wrap;
 		}
 	}
@@ -1278,10 +1272,6 @@ main {
 		.persons {
 			padding: 6rem 7rem;
 		}
-
-		.swiper-slide {
-			max-width: 37rem;
-		}
 	}
 
 	.footer {
@@ -1322,13 +1312,6 @@ main {
 					font-weight: 800;
 				}
 			}
-		}
-	}
-
-	.swiper1Img,
-	.swiper2Img {
-		.swiper-slide {
-			min-width: 31rem;
 		}
 	}
 }
