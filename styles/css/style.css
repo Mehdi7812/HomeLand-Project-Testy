@@ -174,8 +174,6 @@ main .section_head_texts h2 {
   color: #fff;
 }
 main .slider_content {
-  display: flex;
-  gap: 2.5rem;
   cursor: pointer;
 }
 main .slider_item {
@@ -1536,9 +1534,6 @@ main .persons .swiper-button-prev {
   }
   main .persons .fav_image_wrapper {
     display: flex;
-  }
-  main .weblog .weblog_slider {
-    min-width: 32rem;
   }
   .header {
     padding: 0 0 7.5rem;

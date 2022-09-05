@@ -71,9 +71,6 @@ const swiper2 = new Swiper(".swiper2", {
 		prevEl: ".proposal_prev",
 	},
 	breakpoints: {
-		// 300: { slidesPerView: 1, spaceBetween: 15},
-		// 768: { spaceBetween: 2, spaceBetween: 15},
-		// 1200: { spaceBetween: 5 },
 		300: { slidesPerView: 1, spaceBetween: 5 },
 		768: { slidesPerView: 2 },
 	},

@@ -154,8 +154,6 @@ main {
 
 	// component section slider Item
 	.slider_content {
-		display: flex;
-		gap: 2.5rem;
 		cursor: pointer;
 	}
 
@@ -1557,12 +1555,6 @@ main {
 
 			.fav_image_wrapper {
 				display: flex;
-			}
-		}
-
-		.weblog {
-			.weblog_slider {
-				min-width: 32rem;
 			}
 		}
 	}
