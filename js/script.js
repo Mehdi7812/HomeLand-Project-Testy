@@ -9,8 +9,8 @@ const swiper1 = new Swiper(".swiper1", {
 		prevEl: ".newst_prev",
 	},
 	breakpoints: {
-		300: { slidesPerView: 1, spaceBetween: 5 },
-		700: { slidesPerView: 2, spaceBetween: 5 },
+		300: { slidesPerView: 1, spaceBetween: 8 },
+		700: { slidesPerView: 2, spaceBetween: 15 },
 		1300: { slidesPerView: 3, spaceBetween: 25 },
 	},
 });
@@ -60,18 +60,6 @@ const swiper1Img4 = new Swiper(".swiper1Img4", {
 	},
 });
 
-// const swiper2Img = new Swiper(".swiper2Img", {
-// 	// Optional parameters
-// 	direction: "horizontal",
-// 	slidesPerView: 1,
-// 	spaceBetween: 0,
-// 	loop: true,
-// 	navigation: {
-// 		nextEl: ".next_img",
-// 		prevEl: ".prev_img",
-// 	},
-// });
-
 const swiper2 = new Swiper(".swiper2", {
 	// Optional parameters
 	direction: "horizontal",
@@ -95,16 +83,16 @@ const swiper3 = new Swiper(".swiper3", {
 	// Optional parameters
 	direction: "horizontal",
 	slidesPerView: 3,
-	spaceBetween: 25,
+	spaceBetween: 20,
 	loop: true,
 	navigation: {
 		nextEl: ".weblog_next",
 		prevEl: ".weblog_prev",
 	},
 	breakpoints: {
-		300: { slidesPerView: 2, spaceBetween: 3 },
-		768: { spaceBetween: 3, slidesPerView: 1 },
-		1200: { spaceBetween: 3, slidesPerView: 1 },
+		300: { slidesPerView: 1, spaceBetween: 8 },
+		700: { slidesPerView: 2, spaceBetween: 15 },
+		1300: { slidesPerView: 3, spaceBetween: 25 },
 	},
 });
 

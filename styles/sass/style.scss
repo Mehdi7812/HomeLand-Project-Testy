@@ -848,11 +848,6 @@ main {
 			}
 		}
 
-		.weblog_slider {
-			max-width: 38rem;
-			min-width: 34rem;
-		}
-
 		.weblog_slider_top_right {
 			span {
 				color: #fff !important;
@@ -886,8 +881,8 @@ main {
 		.weblog_slider_item {
 			background: #222831;
 			box-shadow: 0px 0px 34px -9px rgba(12, 46, 96, 0.25);
-			max-width: 38rem;
-			min-width: 34rem;
+			// max-width: 38rem;
+			// min-width: 34rem;
 		}
 
 		.weblog_person_wrapper {
