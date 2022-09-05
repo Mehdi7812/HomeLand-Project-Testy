@@ -1,0 +1,58 @@
+@mixin overal {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 1.6rem;
+	text-decoration: none;
+}
+
+@mixin btn {
+	padding: 0 2rem;
+	border-radius: 1.5rem;
+	background-color: $primaryColor;
+	color: $whiteColor;
+	height: 6.1rem;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: .7rem;
+	font-family: "Medium", sans-serif;
+	font-size: 1.7rem;
+	cursor: pointer;
+	transition: .3s;
+
+	&:hover {
+		background-color: #A74A1E;
+	}
+}
+
+@mixin fontStyle($size, $weight, $color) {
+	font-size: $size;
+	font-weight: $weight;
+	color: $color;
+}
+
+@mixin media($size) {
+	@if ($size == XL) {
+		@media (max-width: 1200px) {
+            @content;
+		}
+	} @else if ($size == L) {
+		@media (max-width: 992px) {
+            @content;
+		}
+	} @else if ($size == M) {
+		@media (max-width: 768px) {
+            @content;
+		}
+	} @else if ($size == S) {
+		@media (max-width: 576px) {
+            @content;
+		}
+	} @else if ($size == XS) {
+		@media (min-width: 576px) {
+            @content;
+		}
+	}
+}
