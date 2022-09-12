@@ -950,8 +950,6 @@ main .persons .person_content {
   margin: 5.5rem 0;
 }
 main .persons .person_content .person_item {
-  width: 20.5rem;
-  height: 21rem;
   background-color: #393e46;
   border-radius: 1.5rem;
   display: flex;
@@ -1240,15 +1238,11 @@ main .persons .swiper-pagination {
     padding: 2rem;
   }
   main .proposal .swiper .swiper-slide {
-    max-height: 60rem;
-    max-width: 36rem;
-    min-width: 36rem !important;
+    max-height: 100%;
+    min-width: auto !important;
   }
   main .proposal .proposal_item {
     flex-direction: column;
-    min-height: 57rem;
-    min-width: 33rem;
-    max-width: 40rem;
   }
   main .proposal .proposal_item_texts {
     padding: 0.5rem;
@@ -1408,8 +1402,7 @@ main .persons .fav_content_mobile .fav_img_mobile3,
 main .persons .fav_content_mobile .fav_img_mobile4,
 main .persons .fav_content_mobile .fav_img_mobile5 {
     background-image: url("../../images/favContent1.png");
-    width: 35rem;
-    height: 35rem;
+    min-height: 27rem;
     border-radius: 1rem;
     background-position: center;
     background-size: cover;
@@ -1493,8 +1486,6 @@ main .persons .swiper-button-prev {
     transition: 0.3s;
   }
   main .persons .person_content .person_item {
-    width: 11rem;
-    height: 12.5rem;
     gap: 1rem;
   }
   main .persons .person_content .person_item img {
@@ -1623,18 +1614,11 @@ main .persons .swiper-button-prev {
     color: #fff;
     margin-top: 1.8rem;
   }
-  main .proposal .proposal_item {
-    min-width: 30rem;
-    min-height: 53rem;
-  }
   .category .category_items {
     display: none;
   }
   .category .category_items_mobile {
     display: block;
-  }
-  .category .category_items_mobile .swiper-slide {
-    max-width: 29rem;
   }
   .category .category_items_mobile .category_item {
     border-radius: 1rem;

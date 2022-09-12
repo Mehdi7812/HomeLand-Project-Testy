@@ -899,8 +899,6 @@ main {
 			position: relative;
 			margin: 5.5rem 0;
 			.person_item {
-				width: 20.5rem;
-				height: 21rem;
 				background-color: #393e46;
 				border-radius: 1.5rem;
 				display: flex;
@@ -1214,23 +1212,19 @@ main {
 			.swiper {
 				padding: 2rem;
 				.swiper-slide {
-					max-height: 60rem;
-					max-width: 36rem;
-					min-width: 36rem !important;
+					max-height: 100%;
+					min-width: auto !important;
 				}
 			}
 			.proposal_item {
 				flex-direction: column;
-				min-height: 57rem;
-				min-width: 33rem;
-				max-width: 40rem;
 			}
 
 			.proposal_item_texts {
 				padding: 0.5rem;
 
 				h3 {
-					font-size: 1.5rem;
+					font-size: 1.5rem; 
 				}
 			}
 
@@ -1404,8 +1398,7 @@ main {
 				.fav_img_mobile4,
 				.fav_img_mobile5 {
 					background-image: url("../../images/favContent1.png");
-					width: 35rem;
-					height: 35rem;
+					min-height: 27rem;
 					border-radius: 1rem;
 					background-position: center;
 					background-size: cover;
@@ -1502,8 +1495,6 @@ main {
 
 			.person_content {
 				.person_item {
-					width: 11rem;
-					height: 12.5rem;
 					gap: 1rem;
 
 					img {
@@ -1659,20 +1650,12 @@ main {
 		}
 	}
 
-	main .proposal .proposal_item {
-		min-width: 30rem;
-		min-height: 53rem;
-	}
 	.category {
 		.category_items {
 			display: none;
 		}
 		.category_items_mobile {
 			display: block;
-
-			.swiper-slide {
-				max-width: 29rem;
-			}
 
 			.category_item {
 				border-radius: 1rem;

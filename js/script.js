@@ -9,7 +9,7 @@ const swiper1 = new Swiper(".swiper1", {
 		prevEl: ".newst_prev",
 	},
 	breakpoints: {
-		300: { slidesPerView: 1, spaceBetween: 8 },
+		200: { slidesPerView: 1, spaceBetween: 8 },
 		700: { slidesPerView: 2, spaceBetween: 15 },
 		1300: { slidesPerView: 3, spaceBetween: 25 },
 	},
@@ -71,23 +71,23 @@ const swiper2 = new Swiper(".swiper2", {
 		prevEl: ".proposal_prev",
 	},
 	breakpoints: {
-		300: { slidesPerView: 1, spaceBetween: 5 },
-		768: { slidesPerView: 2 },
+		200: { slidesPerView: 1, spaceBetween: 8 },
+		700: { slidesPerView: 2, spaceBetween: 15 },
 	},
 });
 
 const swiper3 = new Swiper(".swiper3", {
 	// Optional parameters
 	direction: "horizontal",
-	slidesPerView: 3,
-	spaceBetween: 20,
+	slidesPerView: 1,
+	spaceBetween: 25,
 	loop: true,
 	navigation: {
 		nextEl: ".weblog_next",
 		prevEl: ".weblog_prev",
 	},
 	breakpoints: {
-		300: { slidesPerView: 1, spaceBetween: 8 },
+		200: { slidesPerView: 1, spaceBetween: 8 },
 		700: { slidesPerView: 2, spaceBetween: 15 },
 		1300: { slidesPerView: 3, spaceBetween: 25 },
 	},
@@ -97,7 +97,7 @@ const swiper4 = new Swiper(".swiper4", {
 	// Optional parameters
 	direction: "horizontal",
 	slidesPerView: 5,
-	spaceBetween: 5,
+	spaceBetween: 25,
 	loop: true,
 	navigation: {
 		nextEl: ".swiper-button-next",
@@ -105,7 +105,8 @@ const swiper4 = new Swiper(".swiper4", {
 	},
 
 	breakpoints: {
-		300: { slidesPerView: 3 },
+		200: { slidesPerView: 2 },
+		350: { slidesPerView: 3 },
 		1200: { slidesPerView: 4 },
 		1400: { slidesPerView: 5 },
 	},
